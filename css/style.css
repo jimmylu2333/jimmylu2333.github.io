@@ -1,0 +1,61 @@
+body{
+    word-wrap:break-word;
+}
+.img {
+    border-radius: 10px;
+    width: 160px;
+}
+
+p,li {
+    line-height: 200%;
+    font-family: "楷体","serif";
+}
+
+
+a {
+    text-decoration: none;
+    color: cadetblue;
+/*下面的样式以后需要修改*/
+    padding: 10px;
+    padding-left: 0;
+}
+
+h1,h3,h5 {
+    color: firebrick;
+}
+.time{
+    color:rgba(157, 157, 157, 0.47);
+}
+.author{
+    color:rgba(87, 132, 165, 0.79);
+}
+.composer{
+    color:rgba(87, 132, 165, 0.79);
+}
+.lyric{
+    font-size: 15px;
+    font-family:PingFang SC,sans;
+    line-height: normal;
+}
+hr{
+    border-top: 2px dotted #e5e5e5;
+	border-bottom: 2px dotted #e5e5e5;
+	box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5, 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
+	margin-bottom: 1px;
+}
+del{
+    color:grey;
+}
+/*下面的内容块用语设置桌面设备显示时的文本宽度*/
+@media(min-device-width:800px){
+	body{
+		width:800px;
+		margin:0 auto;
+        font-size: 14px;
+	}
+    p{
+        letter-spacing: 1px;
+    }
+ 
+}
+
